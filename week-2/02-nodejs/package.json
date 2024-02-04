@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "test-fileServer": "./node_modules/jest/bin/jest.js ./tests/fileServer.test.js",
-    "test-todoServer": "./node_modules/jest/bin/jest.js ./tests/todoServer.test.js"
+    "test-todoServer": "./node_modules/jest/bin/jest.js ./tests/todoServer.test.js",
+    "devStart1": "nodemon todoServer.js",
+    "devStart2": "nodemon fileServer.js"
   },
   "keywords": [],
   "author": "",
